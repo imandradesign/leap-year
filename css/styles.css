@@ -1,0 +1,25 @@
+.jumbotron {
+  background-color: #00FFFF;
+  text-align: center;
+}
+
+.form-group {
+  max-width: 50%;
+  margin:auto;
+  text-align: center;
+}
+
+#submit-btn {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #00FFFF;
+}
+
+p {
+  text-align: center;
+}
