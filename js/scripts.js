@@ -13,9 +13,9 @@ $(document).ready(function(){
 
   $(".container form").submit(function(event){
     var yearInput = parseInt($("input#year").val());
-    var testing = leapYear(yearInput)
+    var textDisplay = leapYear(yearInput)
     event.preventDefault();
-    $("#result").text(testing);
+    $("#result").text(textDisplay);
     $("#answer").show();
-  })
+  });
 });
